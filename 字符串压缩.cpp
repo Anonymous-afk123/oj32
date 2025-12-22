@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 char *compress(char *src);
-int main() {
 
+int main() {
 	char src[100];
 	scanf("%s", src);
 	char *ps = compress(src);
